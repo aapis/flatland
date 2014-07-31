@@ -59,5 +59,5 @@ The following options can be set in your user preferences:
   "flatland_flat_tabs_light": true,
 
   //icon-less folders
-  "flatland_simple_filders": true,
+  "flatland_simple_folders": true,
 }
