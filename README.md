@@ -16,7 +16,7 @@ If you are a git user, you can install the theme and keep up to date by cloning 
 While inside the `Packages` directory, clone the theme repository using the command below:
 
 ```bash
-git clone git://github.com/aapis/flatland.git "Theme - Flatland"
+git clone git://github.com/aapis/flatland.git "Theme - Aapis.Flatland"
 ```
 
 
@@ -26,9 +26,9 @@ Activate the theme by modifying your user preferences to include the following:
 ```javascript
 {
   "theme": "Flatland Dark.sublime-theme",
-  "color_scheme": "Packages/Theme - Flatland/Flatland Dark Krystal.tmTheme"
-  //"color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme"
-  //"color_scheme": "Packages/Theme - Flatland/Flatland Monokai.tmTheme"
+  "color_scheme": "Packages/Theme - Aapis.Flatland/Flatland Dark Krystal.tmTheme"
+  //"color_scheme": "Packages/Theme - Aapis.Flatland/Flatland Dark.tmTheme"
+  //"color_scheme": "Packages/Theme - Aapis.Flatland/Flatland Monokai.tmTheme"
 }
 ```
 
@@ -43,7 +43,7 @@ The following options can be set in your user preferences:
   "flatland_square_tabs": true,
 
   // Monokai color scheme (SublimeText's default) with Flatland background color
-  "color_scheme": "Packages/Theme - Flatland/Flatland Monokai.tmTheme",
+  "color_scheme": "Packages/Theme - Aapis.Flatland/Flatland Monokai.tmTheme",
 
   // a light theme for the sidebar
   "flatland_light_sidebar": true,
