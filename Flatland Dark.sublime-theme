@@ -222,10 +222,10 @@
         "layer0.tint": [206, 203 ,200], //49, 52, 55
         // Inactive tab settings
         "layer1.texture": null,
-        "layer1.tint": [49, 52, 55], //206, 203 ,200
+        "layer1.tint": [38, 41, 44], //206, 203 ,200 | 149, 52, 55 (red)
         // inactive hover tab setting
         "layer2.texture": null,
-        "layer2.tint": [49, 52, 55] //206, 203 ,200
+        "layer2.tint": [38, 41, 44] //206, 203 ,200
     },
     {
         "class": "tab_control",
