@@ -103,7 +103,8 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "layer0.texture": "Theme - Aapis.Flatland/Flatland Dark/tab-dirty.png",
+        "layer0.texture": null,
+        "layer0.tint": [227, 11, 52],
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0
     },
@@ -186,8 +187,8 @@
         "class": "tab_control",
         "settings": ["flatland_flat_tabs_dark"],
         "attributes": ["dirty"],
-        "layer1.tint": [227, 114, 52],
-        "layer2.tint": [227, 114, 52]
+        "layer1.tint": [227, 11, 52],
+        "layer2.tint": [227, 11, 52]
     },
     {
         "class": "tab_label",
@@ -231,8 +232,8 @@
         "class": "tab_control",
         "settings": ["flatland_flat_tabs_light"],
         "attributes": ["dirty"],
-        "layer1.tint": [227, 114, 52],
-        "layer2.tint": [227, 114, 52]
+        "layer1.tint": [227, 11, 52],
+        "layer2.tint": [227, 11, 52]
     },
     {
         "class": "tab_label",
@@ -580,7 +581,7 @@
     {
         "class": "tree_row",
         "settings": ["flatland_light_sidebar"],
-        "layer0.texture": "",
+        "layer0.texture": null,
         "layer0.tint": [127, 127, 127],
         "layer0.inner_margin": [1,1]
     },
@@ -639,7 +640,7 @@
         "settings": ["flatland_light_sidebar"],
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
         "color": [49, 52, 55],
-        "shadow_color": [0, 0, 0],
+        "shadow_color": [49, 52, 55],
         "shadow_offset": [0, 0]
     },
     // default flatland sidebar folder styles
@@ -696,7 +697,8 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Theme - Aapis.Flatland/Flatland Dark/file-dirty.png",
+        "layer0.texture": null,
+        "layer0.tint": [227, 11, 52],
         "layer0.opacity": 1.0
     },
     {
@@ -757,7 +759,7 @@
     {
         "class": "disclosure_button_control",
         "settings": ["flatland_simple_folders"],
-        "content_margin": [0, 6, 300, 15],
+        "content_margin": [8, 8, 8, 8],
         "layer0.texture": null,
         "layer0.tint": [32, 149, 240]
     },
@@ -804,12 +806,14 @@
         "layer0.texture": null,
         "layer0.tint": [175, 173, 171]
     },
+    // sidebar folder is expanded, with simple_folders and light_sidebar set
     {
         "class": "disclosure_button_control",
         "settings": ["flatland_simple_folders", "flatland_light_sidebar"],
         "attributes": ["expanded"],
         "layer0.texture": null,
-        "layer0.tint": [227, 114, 52]
+        "layer0.tint": [227, 11, 52],
+        "layer0.inner_margin": [2, 2, 2, 2]
     },
 
 //
