@@ -255,6 +255,13 @@
         "fg": [206, 203 ,200],  // active tab text colour
         "shadow_offset": [0,0]
     },
+    {
+        "class": "tab_label",
+        "settings": ["flatland_flat_tabs_light"],
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "fg": [49, 52, 55],  // active tab text colour
+        "shadow_offset": [0,0]
+    },
 
 //
 // FOLD BUTTONS
