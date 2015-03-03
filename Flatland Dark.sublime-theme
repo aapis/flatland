@@ -219,10 +219,10 @@
         "layer0.tint": [206, 203 ,200],
         // Inactive tab settings
         "layer1.texture": null,
-        "layer1.tint": [38, 41, 44],
+        "layer1.tint": [175, 173, 171],
         // inactive hover tab setting
         "layer2.texture": null,
-        "layer2.tint": [38, 41, 44]
+        "layer2.tint": [175, 173, 171]
     },
     {
         "class": "tab_control",
@@ -242,21 +242,21 @@
         "class": "tab_label",
         "settings": ["flatland_flat_tabs_light"],
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "fg": [206, 203 ,200],  // active tab text colour
+        "fg": [255, 255 ,255],  // active tab text colour
         "shadow_offset": [0,0]
     },
     {
         "class": "tab_label",
         "settings": ["flatland_flat_tabs_light"],
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "fg": [206, 203 ,200],  // active tab text colour
+        "fg": [255, 255 ,255],  // active tab text colour
         "shadow_offset": [0,0]
     },
     {
         "class": "tab_label",
         "settings": ["flatland_flat_tabs_light"],
         "parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
-        "fg": [206, 203 ,200],  // active tab text colour
+        "fg": [255, 255 ,255],  // active tab text colour
         "shadow_offset": [0,0]
     },
 
