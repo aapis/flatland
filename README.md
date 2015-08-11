@@ -29,6 +29,7 @@ Activate the theme by modifying your user preferences to include the following:
   "color_scheme": "Packages/Theme - Aapis.Flatland/Flatland Dark Krystal.tmTheme"
   //"color_scheme": "Packages/Theme - Aapis.Flatland/Flatland Dark.tmTheme"
   //"color_scheme": "Packages/Theme - Aapis.Flatland/Flatland Monokai.tmTheme"
+  //"color_scheme": "Packages/Theme - Aapis.Flatland/Flatland Solarized (Dark).tmTheme"
 }
 ```
 
@@ -61,3 +62,8 @@ The following options can be set in your user preferences:
   //icon-less folders
   "flatland_simple_folders": true,
 }
+```
+
+## License
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
